@@ -1,5 +1,5 @@
 #-*- coding:utf-8 -*-
-# Django settings for djangoBlog project.
+# Django settings for blog project.
 
 import os
 gettext = lambda s: s
@@ -114,10 +114,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'djangoBlog.urls'
+ROOT_URLCONF = 'blog.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'djangoBlog.wsgi.application'
+WSGI_APPLICATION = 'blog.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".

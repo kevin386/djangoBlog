@@ -1,6 +1,0 @@
-#ignore .pyc
-*.pyc
-#ignore database config file
-db.cfg
-#ignore south files
-djangoBlog/migrations/
